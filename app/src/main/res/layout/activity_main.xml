@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.batman.rec.MainActivity"
+
+android:background="@drawable/ad2"
+    >
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="81dp"
+        android:text="Third year"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="16dp"
+        tools:textColor="?android:attr/textColorSecondaryInverseNoDisable" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second year"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="16dp"
+        tools:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:layout_below="@+id/editText7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First year"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="16dp"
+        tools:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <Spinner
+        android:id="@+id/spinner"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:spinnerMode="dropdown"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="Select department"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="17dp"
+        tools:textColor="?android:attr/colorSwitchThumbNormal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="30dp"
+        android:text="Enter the number of students"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="17dp"
+        tools:textColor="?android:attr/textColorSecondaryInverseNoDisable" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="73dp"
+        android:text="Fourth year"
+        android:textColor="?android:attr/textColorSecondaryInverseNoDisable"
+        android:textSize="16dp"
+        tools:textColor="?android:attr/textColorSecondaryInverseNoDisable" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView7"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@+id/textView6"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_marginTop="18dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignRight="@+id/editText6"
+        android:layout_alignEnd="@+id/editText6" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toRightOf="@+id/editText"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">REC</string>
+    <string-array name="spinner_options">
+        <item name="Aero">Aeronautical</item>
+        <item name="BioMed">Bio Medical</item>
+        <item name="EEE">EEE</item>
+        <item name="ECE">ECE</item>
+        <item name="CSE">CSE</item>
+        <item name="IT">IT</item>
+        <item name="MECH">MECHANICAL</item>
+        <item name="civil">CIVIL</item>
+        <item name="mechatronics">MECHATRONICS</item>
+    </string-array>
+
+
+</resources>
